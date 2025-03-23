@@ -3,6 +3,7 @@
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.25);
   border-radius: 50px;
+  
 }
 
 .Weather .overview {
@@ -73,4 +74,28 @@
 
 .Weather small .footer {
   margin-top: 200px;
+}
+@media(max-width:768px){
+ .Weather { position: absolute;
+  top: 150PX;
+  left: 17%;
+}}
+@media(max-width:600px ){
+  .col-3 {
+    flex: 0 0 auto;
+    width: 32%;
+}
+.col-9 {
+  flex: 0 0 auto;
+  width: 68%;
+}
+  .Weather {        
+    position: absolute;
+        width: 92vw;
+    left: 4%;
+    font-size: 0.7rem !important;
+    padding: 24px;
+    
+  }
+
 }
