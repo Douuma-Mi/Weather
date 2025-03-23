@@ -16,7 +16,7 @@ const [local, setlocal] = useState('')
   useEffect(() => {
     const options = {
       method: "GET",
-      url: `http://api.weatherapi.com/v1/forecast.json?key=a03cf2cabcaa4353971164038230401&q=${query}&days=5&aqi=no&alerts=no`,
+      url: `https://api.weatherapi.com/v1/forecast.json?key=a03cf2cabcaa4353971164038230401&q=${query}&days=5&aqi=no&alerts=no`,
 
       headers: {
         "X-RapidAPI-Key": "8bd9d6c688msh68d31c229fdad4ap11c13ajsn87b83ab7f99a",
