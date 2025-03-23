@@ -64,7 +64,7 @@ const [local, setlocal] = useState('')
               type="submit"
               value="Search"
             
-              className="btn btn–primary w-100"  onClick={handlesubmit}    >search </button>
+              className="btn btn–primary w-100"  onClick={handlesubmit}    >Search </button>
           </div>
         </div>
       </form>

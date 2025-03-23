@@ -1,9 +1,10 @@
 .Weather {
   padding: 60px;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
-  
+  background: rgb(0 0 0 / 75%);  border-radius: 50px;
+  position: absolute;
+  top: 172px;
+  left: 33%;
 }
 
 .Weather .overview {
@@ -52,6 +53,7 @@
   color: #fff;
   width: 95px;
   height: 35px;
+  font-size: 12px;
 }
 
 .Weather .weather-forecast {
@@ -93,9 +95,17 @@
     position: absolute;
         width: 92vw;
     left: 4%;
-    font-size: 0.7rem !important;
     padding: 24px;
     
   }
-
+  .Weather .btn {
+    font-size: 12px !important; 
+  }
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+   width: 0px; 
+   padding-right: var(--bs-gutter-x, .0rem); 
+   padding-left: var(--bs-gutter-x, .0rem); 
+   margin-right: 0px; 
+   margin-left: 0px;
 }
